@@ -4,7 +4,7 @@
 const nuevaString = 'Hola';
 
 // Crea una variable numérica, puede ser cualquier número:
-const nuevoNum = 10;
+const nuevoNum = 12;
 
 // Crea una variable booleana:
 const nuevoBool = true;
@@ -63,11 +63,7 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (x===y) {
-    return true;
-  } else {
-    return false;
-  }
+  return x===y;
   
 }
 
@@ -83,11 +79,7 @@ function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num < 90) {
-    return true;
-  } else {
-    return false;
-  }
+  return num < 90;
 }
 
 function mayorQueCincuenta(num) {
@@ -107,22 +99,14 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num % 2 === 0) {
-    return true;
-  } else {
-    return false;
-  }
+  return num % 2 === 0;
 }
 
 function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num % 2 === 1) {
-    return true;
-  } else {
-    return false;
-  }
+  return num % 2 === 1;
 }
 
 function elevarAlCuadrado(num) {
