@@ -181,7 +181,7 @@ function doWhile(numero) {
   //Retornar el valor final.
   //Usar el bucle do ... while.
 
-  var i = 0;
+  let i = 0;
   do {
     i = i + 1;
     numero = numero + 5;
