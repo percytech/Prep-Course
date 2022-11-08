@@ -57,13 +57,13 @@ function nuevoUsuario (nombre, email, password) {
   // Devuelve el objeto
   // Tu código:
 
- const user1 = {
+ const user = {
   nombre: nombre,
   email: email,
   password: password,
   }
 
-  return user1;
+  return user;
 
 }
 
