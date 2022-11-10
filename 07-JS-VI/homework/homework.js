@@ -63,6 +63,7 @@ function map(array, cb) {
   //   nuevoArray[i] = cb(array[i]);
   // }
 
+  // Segunda opcion
   let nuevoArray = array.map(function (el) {
     return cb(el);
   });
